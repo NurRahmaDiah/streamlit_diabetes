@@ -272,3 +272,5 @@ metrics_table
 ## Deployment
 
 Pastikan untuk menyesuaikan langkah-langkah ini dengan kebutuhan proyek Anda dan secara kontinu melakukan iterasi untuk meningkatkan model dan hasil prediksi.
+[My Prediction App](https://appdiabetes-ay7qypuominxpjaysymrza.streamlit.app/)
+![https://appdiabetes-ay7qypuominxpjaysymrza.streamlit.app/](streamlit.png)
