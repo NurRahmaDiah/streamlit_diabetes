@@ -1,23 +1,19 @@
 # Import library
+import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import sklearn.metrics as metrics
 import seaborn as sns
-import streamlit as st
+import pickle
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler,LabelEncoder
+from sklearn import preprocessing
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score,classification_report
 from sklearn.metrics import confusion_matrix,ConfusionMatrixDisplay
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.impute import KNNImputer
-from sklearn.model_selection import cross_val_score , train_test_split , RandomizedSearchCV , GridSearchCV
-from sklearn.metrics import classification_report
-from scipy import stats
-from xgboost import XGBClassifier
-from imblearn.over_sampling import SMOTE
-from sklearn.model_selection import train_test_split, cross_val_score, KFold
 
 import pickle
 import warnings
